@@ -10,4 +10,18 @@ class Solution {
         }
         return(rev==temp);
     }
+        public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get user input
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        Solution sol = new Solution();
+        
+        // Output true or false
+        System.out.println(sol.isPalindrome(num));
+
+        scanner.close();
+    }
 }
